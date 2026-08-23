@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { height: 100%; }
+
+body {
+  @apply bg-paper text-ink-950 dark:bg-ink-950 dark:text-paper-100 transition-colors font-sans;
+}
+
+h1, h2, h3, .font-display {
+  font-family: theme('fontFamily.display');
+}
+
+::selection { @apply bg-accent-200 text-ink-950 dark:bg-accent-700 dark:text-paper-100; }
+
+.focus-ring {
+  @apply outline-none focus-visible:ring-2 focus-visible:ring-accent-400 focus-visible:ring-offset-2 focus-visible:ring-offset-paper dark:focus-visible:ring-offset-ink-950;
+}
+
+.scrollbar-thin::-webkit-scrollbar { width: 6px; height: 6px; }
+.scrollbar-thin::-webkit-scrollbar-thumb { @apply bg-ink-700/20 dark:bg-paper-100/10 rounded-full; }
+
+:root {
+  --chart-tooltip-bg: #ffffff;
+  --chart-tooltip-border: rgba(18, 20, 27, 0.12);
+  --chart-tooltip-text: #12141b;
+}
+.dark {
+  --chart-tooltip-bg: #191c24;
+  --chart-tooltip-border: rgba(250, 250, 248, 0.12);
+  --chart-tooltip-text: #fafaf8;
+}
+
+.rail {
+  border-left-width: 3px;
+  border-left-style: solid;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
