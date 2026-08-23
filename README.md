@@ -13,6 +13,25 @@ https://sprintdesk-gold.vercel.app/login
 **GitHub Repository:**  
 https://github.com/RaghavRR/sprintdesk
 
+## Screenshots
+
+### Dashboard
+
+![SprintDesk Dashboard](./public/screenshots/ss1.png)
+
+
+![SprintDesk  Dashboard](./public/screenshots/ss2.png)
+
+### Kanban Board
+
+![SprintDesk Kanban Board](./public/screenshots/ss3.png)
+
+
+### Analytics
+
+![SprintDesk Analytics](./public/screenshots/ss4.png)
+
+
 ## Table of contents
 
 - [Features](#features)
