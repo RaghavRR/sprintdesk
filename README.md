@@ -5,6 +5,14 @@ the Frontend Engineer take-home assignment. SprintDesk lets a team authenticate,
 tasks on a drag-and-drop board, analyze sprint data, and receive simulated real-time
 notifications — all as a single-page React application.
 
+## Live Demo
+
+**Live Application:**  
+https://sprintdesk-gold.vercel.app/login
+
+**GitHub Repository:**  
+https://github.com/RaghavRR/sprintdesk
+
 ## Table of contents
 
 - [Features](#features)
@@ -314,3 +322,11 @@ any static host (Vercel, Netlify, GitHub Pages, Cloudflare Pages, etc.) with a S
 fallback rule (serve `index.html` for unmatched routes, since routing is client-side via
 React Router). No server-side environment variables are required for a working deployment
 (see [Environment variables](#environment-variables)).
+
+# 👨‍💻 Author
+
+**Raghav Rastogi**
+
+Frontend Developer | React | TypeScript | JavaScript
+
+GitHub: https://github.com/RaghavRR/sprintdesk
